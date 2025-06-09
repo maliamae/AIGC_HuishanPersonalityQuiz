@@ -10,6 +10,9 @@ public enum buttonTypes
     Option2,
     Option3,
     Option4,
+    Male,
+    Female,
+    Other
 }
 
 public class ButtonControls : MonoBehaviour
@@ -32,6 +35,8 @@ public class ButtonControls : MonoBehaviour
     public static int countJ;
     public static int countP;
 
+    public static int gender; //0 = Male, 1 = Female, 2 = Other
+
     public int currentScene;
     public int nextScene;
 
@@ -44,7 +49,7 @@ public class ButtonControls : MonoBehaviour
     {
         //selectType = 0;
         currentScene = SceneManager.GetActiveScene().buildIndex;
-        currentTransition = transitionNames[currentScene - 1];
+        
 
         //Debug.Log("Current Scene: " + currentScene);
 
@@ -59,23 +64,38 @@ public class ButtonControls : MonoBehaviour
 
         if (type == buttonTypes.Option1)
         {
-            this.gameObject.GetComponent<Image>().color = Color.white;
+            //this.gameObject.GetComponent<Image>().color = Color.white;
             this.gameObject.GetComponentInChildren<TextMeshProUGUI>().text = "1";
         }
         else if (type == buttonTypes.Option2)
         {
-            this.gameObject.GetComponent<Image>().color = Color.blue;
+            //this.gameObject.GetComponent<Image>().color = Color.blue;
             this.gameObject.GetComponentInChildren<TextMeshProUGUI>().text = "2";
         }
         else if (type == buttonTypes.Option3)
         {
-            this.gameObject.GetComponent<Image>().color = Color.red;
+            //this.gameObject.GetComponent<Image>().color = Color.red;
             this.gameObject.GetComponentInChildren<TextMeshProUGUI>().text = "3";
         }
         else if (type == buttonTypes.Option4)
         {
-            this.gameObject.GetComponent<Image>().color = Color.pink;
+            //this.gameObject.GetComponent<Image>().color = Color.pink;
             this.gameObject.GetComponentInChildren<TextMeshProUGUI>().text = "4";
+        }
+        else if (type == buttonTypes.Male)
+        {
+            //this.gameObject.GetComponent<Image>().color = Color.pink;
+            this.gameObject.GetComponentInChildren<TextMeshProUGUI>().text = "Male";
+        }
+        else if (type == buttonTypes.Female)
+        {
+            //this.gameObject.GetComponent<Image>().color = Color.pink;
+            this.gameObject.GetComponentInChildren<TextMeshProUGUI>().text = "Female";
+        }
+        else if (type == buttonTypes.Other)
+        {
+            //this.gameObject.GetComponent<Image>().color = Color.pink;
+            this.gameObject.GetComponentInChildren<TextMeshProUGUI>().text = "Other";
         }
     }
 
@@ -88,6 +108,7 @@ public class ButtonControls : MonoBehaviour
     public void SwapScene()
     {
         //Debug.Log("SWAP");
+        currentTransition = transitionNames[currentScene - 1];
 
         if (type == buttonTypes.Option1)
         {
@@ -109,10 +130,29 @@ public class ButtonControls : MonoBehaviour
             //selectType = 4;
             count4 ++;
         }
+        
 
 
 
         //SceneManager.LoadScene(nextScene, LoadSceneMode.Single);
         LevelManager.Instance.LoadScene(nextScene, currentTransition);
+    }
+
+    public void SwapSceneGender()
+    {
+        if (type == buttonTypes.Male)
+        {
+            gender = 0;
+        }
+        else if (type == buttonTypes.Female)
+        {
+            gender = 1;
+        }
+        else if (type == buttonTypes.Other)
+        {
+            gender = 2;
+        }
+
+        LevelManager.Instance.LoadScene(1, "CrossFade");
     }
 }

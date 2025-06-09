@@ -31,7 +31,7 @@ public class DisplayText : ButtonControls
         */
 
         displayText.text = "One: " + count1 + "\n" + "Two: " + count2 + "\n" + "Three: " + count3 + "\n" + "Four: " + count4;
-        MBTIDisplayText.text = "I/E: " + countI + "/" + countE + "\n" + "S/N: " + countS + "/" + countN + "\n" + "T/F: " + countT + "/" + countF + "\n" + "J/P: " + countJ + "/" + countP;
+        MBTIDisplayText.text = "Gender: " + gender + "\n" + "I/E: " + countI + "/" + countE + "\n" + "S/N: " + countS + "/" + countN + "\n" + "T/F: " + countT + "/" + countF + "\n" + "J/P: " + countJ + "/" + countP;
     }
 
     // Update is called once per frame

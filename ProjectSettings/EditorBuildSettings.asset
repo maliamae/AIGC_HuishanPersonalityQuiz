@@ -23,6 +23,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SceneTest01.unity
     guid: 2a66be10a08b97b4ba5842e59a40b059
+  - enabled: 1
+    path: Assets/Scenes/Scene_Prompt1.unity
+    guid: 121f77aecdf799c40ada3b36ee2e84ca
+  - enabled: 1
+    path: Assets/Scenes/Scene_GenderQ.unity
+    guid: 329967dac074da84e82fb1d9df35af9d
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
