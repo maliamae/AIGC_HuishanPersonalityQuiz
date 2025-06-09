@@ -30,16 +30,16 @@ public class LevelManager : MonoBehaviour
         transitions = transitionsContainer.GetComponentsInChildren<SceneTransition>();
     }
 
-    public void LoadScene(string sceneName, string transitionName)
+    public void LoadScene(int sceneIndex, string transitionName)
     {
-        StartCoroutine(LoadSceneAsync(sceneName, transitionName));
+        StartCoroutine(LoadSceneAsync(sceneIndex, transitionName));
     }
 
-    private IEnumerator LoadSceneAsync(string sceneName, string transitionName)
+    private IEnumerator LoadSceneAsync(int sceneIndex, string transitionName)
     {
         SceneTransition transition = transitions.First(t => t.name == transitionName);
 
-        AsyncOperation scene = SceneManager.LoadSceneAsync(sceneName);
+        AsyncOperation scene = SceneManager.LoadSceneAsync(sceneIndex);
         scene.allowSceneActivation = false;
 
         yield return transition.AnimateTransitionIn();

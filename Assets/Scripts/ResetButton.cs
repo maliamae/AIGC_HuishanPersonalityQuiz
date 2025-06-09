@@ -21,6 +21,7 @@ public class ResetButton : ButtonControls
         count2 = 0;
         count3 = 0;
         count4 = 0;
-        SceneManager.LoadScene(0, LoadSceneMode.Single);
+        //SceneManager.LoadScene(0, LoadSceneMode.Single);
+        LevelManager.Instance.LoadScene(0, "CrossFade");
     }
 }

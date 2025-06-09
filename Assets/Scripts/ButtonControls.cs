@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -34,12 +35,18 @@ public class ButtonControls : MonoBehaviour
     public int currentScene;
     public int nextScene;
 
+    public static string currentTransition;
+
+    public List<string> transitionNames = new List<string>() { "CircleWipe", "CircleWipeUp", "CircleWipeLeft", "CircleWipeDown", "CrossFade" };
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         //selectType = 0;
         currentScene = SceneManager.GetActiveScene().buildIndex;
-        Debug.Log("Current Scene: " + currentScene);
+        currentTransition = transitionNames[currentScene - 1];
+
+        //Debug.Log("Current Scene: " + currentScene);
 
         if (currentScene > 3)
         {
@@ -103,8 +110,9 @@ public class ButtonControls : MonoBehaviour
             count4 ++;
         }
 
-        
 
-        SceneManager.LoadScene(nextScene, LoadSceneMode.Single);
+
+        //SceneManager.LoadScene(nextScene, LoadSceneMode.Single);
+        LevelManager.Instance.LoadScene(nextScene, currentTransition);
     }
 }
