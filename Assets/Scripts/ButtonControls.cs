@@ -43,7 +43,7 @@ public class ButtonControls : MonoBehaviour
 
         if (currentScene > 3)
         {
-            nextScene = 0;
+            nextScene = 5;
         }
         else
         {

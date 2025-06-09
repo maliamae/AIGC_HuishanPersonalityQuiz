@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ResetButton : ButtonControls
+public class StartButton : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -15,12 +15,10 @@ public class ResetButton : ButtonControls
         
     }
 
-    public void ReturnToStartScene()
+    public void StartQuiz()
     {
-        count1 = 0;
-        count2 = 0;
-        count3 = 0;
-        count4 = 0;
-        SceneManager.LoadScene(0, LoadSceneMode.Single);
+        Debug.Log("Click");
+        LevelManager.Instance.LoadScene("SceneQ_01", "CrossFade");
+        //SceneManager.LoadScene(1, LoadSceneMode.Single);
     }
 }
