@@ -1,0 +1,26 @@
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class ResetButton : ButtonControls
+{
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    public void ReturnToStartScene()
+    {
+        count1 = 0;
+        count2 = 0;
+        count3 = 0;
+        count4 = 0;
+        SceneManager.LoadScene(1, LoadSceneMode.Single);
+    }
+}
