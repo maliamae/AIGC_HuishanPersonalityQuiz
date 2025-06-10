@@ -19,21 +19,7 @@ public class ResetButton : ButtonControls
     {
         count1 = 0;
         count2 = 0;
-        count3 = 0;
-        count4 = 0;
         gender = 0;
-
-        /*
-        foreach(int item in option1Var)
-        {
-            option1Var[item] = 0;
-        }
-
-        foreach (int item in option2Var)
-        {
-            option2Var[item] = 0;
-        }
-        */
 
         for (int i = 1; i < option1Var.Count; i++)
         {

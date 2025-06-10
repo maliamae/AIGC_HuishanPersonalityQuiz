@@ -18,7 +18,7 @@ public class StartButton : MonoBehaviour
     public void StartQuiz()
     {
         Debug.Log("Click");
-        LevelManager.Instance.LoadScene(6, "CrossFade");
+        LevelManager.Instance.LoadScene(7, "CrossFade");
         //SceneManager.LoadScene(1, LoadSceneMode.Single);
     }
 }

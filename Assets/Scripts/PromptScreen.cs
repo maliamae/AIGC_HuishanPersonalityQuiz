@@ -13,8 +13,7 @@ public class PromptScreen : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            //Debug.Log("Prompt go away");
-            LevelManager.Instance.LoadScene(7, "CrossFade");
+            LevelManager.Instance.LoadScene(1, "CrossFade");
         }
     }
 }

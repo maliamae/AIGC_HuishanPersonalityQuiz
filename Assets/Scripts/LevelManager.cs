@@ -44,7 +44,7 @@ public class LevelManager : MonoBehaviour
 
         yield return transition.AnimateTransitionIn();
 
-        yield return new WaitForSeconds(.25f);
+        yield return new WaitForSeconds(.05f);
 
         scene.allowSceneActivation = true;
 
