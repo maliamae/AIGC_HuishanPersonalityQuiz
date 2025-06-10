@@ -43,13 +43,18 @@ public class ButtonControls : MonoBehaviour
     public static string currentTransition;
 
     public List<string> transitionNames = new List<string>() { "CircleWipe", "CircleWipeUp", "CircleWipeLeft", "CircleWipeDown", "CrossFade" };
+    public List<string> option1Texts = new List<string>() { string.Empty, "I", "S", "T", "J" };
+    public List<string> option2Texts = new List<string>() { string.Empty, "E", "N", "F", "P" };
+
+    public static List<int> option1Var = new List<int>() { 0, countI, countS, countT, countJ };
+    public static List<int> option2Var = new List<int>() { 0, countE, countN, countF, countP };
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         //selectType = 0;
         currentScene = SceneManager.GetActiveScene().buildIndex;
-        
+        TextMeshProUGUI optionText = this.gameObject.GetComponentInChildren<TextMeshProUGUI>();
 
         //Debug.Log("Current Scene: " + currentScene);
 
@@ -64,13 +69,17 @@ public class ButtonControls : MonoBehaviour
 
         if (type == buttonTypes.Option1)
         {
+            optionText.text = option1Texts[currentScene];
+
             //this.gameObject.GetComponent<Image>().color = Color.white;
-            this.gameObject.GetComponentInChildren<TextMeshProUGUI>().text = "1";
+            //this.gameObject.GetComponentInChildren<TextMeshProUGUI>().text = "1";
         }
         else if (type == buttonTypes.Option2)
         {
+            optionText.text = option2Texts[currentScene];
+
             //this.gameObject.GetComponent<Image>().color = Color.blue;
-            this.gameObject.GetComponentInChildren<TextMeshProUGUI>().text = "2";
+            //this.gameObject.GetComponentInChildren<TextMeshProUGUI>().text = "2";
         }
         else if (type == buttonTypes.Option3)
         {
@@ -95,7 +104,7 @@ public class ButtonControls : MonoBehaviour
         else if (type == buttonTypes.Other)
         {
             //this.gameObject.GetComponent<Image>().color = Color.pink;
-            this.gameObject.GetComponentInChildren<TextMeshProUGUI>().text = "Other";
+            this.gameObject.GetComponentInChildren<TextMeshProUGUI>().text = "Prefer Not to Say";
         }
     }
 
@@ -112,11 +121,18 @@ public class ButtonControls : MonoBehaviour
 
         if (type == buttonTypes.Option1)
         {
+            option1Var[currentScene]++;
+
+            Debug.Log(option1Var[currentScene]);
+
             //selectType = 1;
             count1 ++;
         }
         else if (type == buttonTypes.Option2)
         {
+            option2Var[currentScene]++;
+
+            Debug.Log(option2Var[currentScene]);
             //selectType = 2;
             count2 ++;
         }

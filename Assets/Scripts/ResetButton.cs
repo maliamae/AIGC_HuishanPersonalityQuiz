@@ -22,6 +22,25 @@ public class ResetButton : ButtonControls
         count3 = 0;
         count4 = 0;
         gender = 0;
+
+        /*
+        foreach(int item in option1Var)
+        {
+            option1Var[item] = 0;
+        }
+
+        foreach (int item in option2Var)
+        {
+            option2Var[item] = 0;
+        }
+        */
+
+        for (int i = 1; i < option1Var.Count; i++)
+        {
+            option1Var[i] = 0;
+            option2Var[i] = 0;
+        }
+
         //SceneManager.LoadScene(0, LoadSceneMode.Single);
         LevelManager.Instance.LoadScene(0, "CrossFade");
     }

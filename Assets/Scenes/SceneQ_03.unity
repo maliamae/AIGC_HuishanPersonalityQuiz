@@ -383,16 +383,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8046579312145522444, guid: c3466c86ca88ea34dacc687d531e64a9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 8046579312145522444, guid: c3466c86ca88ea34dacc687d531e64a9, type: 3}
       propertyPath: m_Color.b
-      value: 0.7921569
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8046579312145522444, guid: c3466c86ca88ea34dacc687d531e64a9, type: 3}
       propertyPath: m_Color.g
-      value: 0.1372549
+      value: 0.21568629
       objectReference: {fileID: 0}
     - target: {fileID: 8046579312145522444, guid: c3466c86ca88ea34dacc687d531e64a9, type: 3}
       propertyPath: m_Color.r
-      value: 0.5331549
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

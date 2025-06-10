@@ -11,9 +11,9 @@ public class PromptScreen : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.anyKey || Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(0))
         {
-            Debug.Log("Prompt go away");
+            //Debug.Log("Prompt go away");
             LevelManager.Instance.LoadScene(7, "CrossFade");
         }
     }
