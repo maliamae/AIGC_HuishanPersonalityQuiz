@@ -83,7 +83,7 @@ public class ButtonControls : MonoBehaviour
         }
         else if (type == buttonTypes.Other)
         {
-            this.gameObject.GetComponentInChildren<TextMeshProUGUI>().text = "Prefer Not to Say";
+            this.gameObject.GetComponentInChildren<TextMeshProUGUI>().text = "Other";
         }
     }
 

@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 9d4a718b85f8824458052581f72d321d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3839152571820608637
+    second: BeijingText_0
+  - first:
+      213: -2650244256630606690
+    second: BeijingText_1
+  - first:
+      213: 808140683107910836
+    second: BeijingText_2
+  - first:
+      213: 685515378993494312
+    second: BeijingText_3
+  - first:
+      213: -2821457836831922669
+    second: BeijingText_4
+  - first:
+      213: 4133047576254048014
+    second: BeijingText_5
+  - first:
+      213: 675196166342765503
+    second: BeijingText_6
+  - first:
+      213: 4654973837838572229
+    second: BeijingText_7
+  - first:
+      213: -3626393177970264885
+    second: BeijingText_8
+  - first:
+      213: 5371712610384002863
+    second: BeijingText_9
+  - first:
+      213: -6630658818972421680
+    second: BeijingText_10
+  - first:
+      213: 3140590548782172973
+    second: BeijingText_11
+  - first:
+      213: -612365512423630120
+    second: BeijingText_12
+  - first:
+      213: 7946666340157723405
+    second: BeijingText_13
+  - first:
+      213: -3672329854467040311
+    second: BeijingText_14
+  - first:
+      213: 5833607438093375327
+    second: BeijingText_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BeijingText_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 167
+        width: 72
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c05e16ce8674530800000000000000
+      internalID: 3839152571820608637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeijingText_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 238
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e947383e3e0783bd0800000000000000
+      internalID: -2650244256630606690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeijingText_2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 238
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b440396ba7173b00800000000000000
+      internalID: 808140683107910836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeijingText_3
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 238
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82979fcea90738900800000000000000
+      internalID: 685515378993494312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeijingText_4
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 167
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31624eecb0b28d8d0800000000000000
+      internalID: -2821457836831922669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeijingText_5
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 169
+        width: 22
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e07696e6fd88b5930800000000000000
+      internalID: 4133047576254048014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeijingText_6
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 138
+        width: 35
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbbe0900657ce5900800000000000000
+      internalID: 675196166342765503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeijingText_7
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 169
+        width: 22
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cada1bda0ac99040800000000000000
+      internalID: 4654973837838572229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeijingText_8
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 169
+        width: 63
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc4be2b3e967cadc0800000000000000
+      internalID: -3626393177970264885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeijingText_9
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 138
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2fbc6998282c8a40800000000000000
+      internalID: 5371712610384002863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeijingText_10
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 28
+        width: 42
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d176545fea2bf3a0800000000000000
+      internalID: -6630658818972421680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeijingText_11
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 31
+        width: 44
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b4c1de67e959b20800000000000000
+      internalID: 3140590548782172973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeijingText_12
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 103
+        width: 102
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da1a479fc07087f0800000000000000
+      internalID: -612365512423630120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeijingText_13
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 33
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0397a1eeea384e60800000000000000
+      internalID: 7946666340157723405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeijingText_14
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 29
+        width: 76
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb1e664473490dc0800000000000000
+      internalID: -3672329854467040311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeijingText_15
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 34
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f57d1a2ae0325f050800000000000000
+      internalID: 5833607438093375327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BeijingText_0: 3839152571820608637
+      BeijingText_1: -2650244256630606690
+      BeijingText_10: -6630658818972421680
+      BeijingText_11: 3140590548782172973
+      BeijingText_12: -612365512423630120
+      BeijingText_13: 7946666340157723405
+      BeijingText_14: -3672329854467040311
+      BeijingText_15: 5833607438093375327
+      BeijingText_2: 808140683107910836
+      BeijingText_3: 685515378993494312
+      BeijingText_4: -2821457836831922669
+      BeijingText_5: 4133047576254048014
+      BeijingText_6: 675196166342765503
+      BeijingText_7: 4654973837838572229
+      BeijingText_8: -3626393177970264885
+      BeijingText_9: 5371712610384002863
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
