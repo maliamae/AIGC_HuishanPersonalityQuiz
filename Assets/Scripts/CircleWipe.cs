@@ -10,7 +10,7 @@ public class CircleWipe : SceneTransition
     public override IEnumerator AnimateTransitionIn()
     {
         circle.rectTransform.anchoredPosition = new Vector2(-1000f, 0f);
-        var tweener = circle.rectTransform.DOAnchorPosX(250f, 1f);
+        var tweener = circle.rectTransform.DOAnchorPosX(290f, 1f);
         yield return tweener.WaitForCompletion();
 
     }

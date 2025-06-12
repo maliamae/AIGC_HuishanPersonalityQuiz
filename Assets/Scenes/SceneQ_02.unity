@@ -1783,8 +1783,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonBorder: {fileID: 669307654}
-  xDistanceActive: 150
-  xDistanceInactive: 350
+  distanceActive: 100
+  distanceInactive: 300
   duration: 0.5
 --- !u!114 &6593852123602832766
 MonoBehaviour:
@@ -1941,8 +1941,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonBorder: {fileID: 1096853295}
-  xDistanceActive: 500
-  xDistanceInactive: 350
+  distanceActive: 500
+  distanceInactive: 300
   duration: 0.5
 --- !u!114 &7253013719728808171
 MonoBehaviour:
@@ -2258,8 +2258,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonBorder: {fileID: 669307654}
-  xDistanceActive: 600
-  xDistanceInactive: 350
+  distanceActive: 500
+  distanceInactive: 300
   duration: 0.5
 --- !u!223 &8495801429458034534
 Canvas:
@@ -2380,8 +2380,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonBorder: {fileID: 1096853295}
-  xDistanceActive: 150
-  xDistanceInactive: 350
+  distanceActive: 100
+  distanceInactive: 300
   duration: 0.5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

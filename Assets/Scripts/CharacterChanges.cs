@@ -9,6 +9,7 @@ public class CharacterChanges : ButtonControls
     public Image bodyImage;
     public Image hairShortImage;
     public Image hairLongImage;
+    public Image hairLongPieceImage;
     public Image eyeImage;
     public Image eye2Image;
     public Image fanImage;
@@ -31,10 +32,16 @@ public class CharacterChanges : ButtonControls
     public Sprite hair1YellowSprite;
     public Sprite hair1PinkSprite;
     public Sprite hair1PurpleSprite;
+
     public Sprite hair2GreenSprite;
     public Sprite hair2YellowSprite;
     public Sprite hair2PinkSprite;
     public Sprite hair2PurpleSprite;
+
+    public Sprite hair2PieceGreenSprite;
+    public Sprite hair2PieceYellowSprite;
+    public Sprite hair2PiecePinkSprite;
+    public Sprite hair2PiecePurpleSprite;
 
     public Sprite bodyGreenSprite;
     public Sprite bodyYellowSprite;
@@ -72,7 +79,9 @@ public class CharacterChanges : ButtonControls
                 hairShortImage.gameObject.SetActive(false);
 
                 bodyImage.sprite = bodyPurpleSprite;
+
                 hairLongImage.sprite = hair2PurpleSprite;
+                hairLongPieceImage.sprite = hair2PiecePurpleSprite;
 
                 if (option1Var[3] == 1)
                 {
@@ -90,6 +99,7 @@ public class CharacterChanges : ButtonControls
             {
                 //Yellow
                 hairLongImage.gameObject.SetActive(false);
+                hairLongPieceImage.gameObject.SetActive(false);
 
                 bodyImage.sprite = bodyYellowSprite;
                 hairShortImage.sprite = hair1YellowSprite;
@@ -121,11 +131,13 @@ public class CharacterChanges : ButtonControls
                 {
                     hairShortImage.gameObject.SetActive(false);
                     hairLongImage.sprite = hair2PinkSprite;
+                    hairLongPieceImage.sprite = hair2PiecePinkSprite;
 
                 }
                 else if (option2Var[4] == 1)
                 {
                     hairLongImage.gameObject.SetActive(false);
+                    hairLongPieceImage.gameObject.SetActive(false);
                     hairShortImage.sprite = hair1PinkSprite;
                 }
 
@@ -141,12 +153,14 @@ public class CharacterChanges : ButtonControls
                 if (option1Var[4] == 1)
                 {
                     hairShortImage.gameObject.SetActive(false);
+                    hairLongPieceImage.sprite = hair2PieceGreenSprite;
                     hairLongImage.sprite = hair2GreenSprite;
 
                 }
                 else if (option2Var[4] == 1)
                 {
                     hairLongImage.gameObject.SetActive(false);
+                    hairLongPieceImage.gameObject.SetActive(false);
                     hairShortImage.sprite = hair1GreenSprite;
                 }
             }
