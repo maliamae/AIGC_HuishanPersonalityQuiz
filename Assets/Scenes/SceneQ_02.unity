@@ -190,7 +190,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -64, y: 2.256}
+  m_AnchoredPosition: {x: -541, y: 2.256}
   m_SizeDelta: {x: 2683.36, y: 786.141}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &121272112
@@ -265,8 +265,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -37, y: 14}
-  m_SizeDelta: {x: 823.417, y: 346.387}
+  m_AnchoredPosition: {x: -152, y: 14}
+  m_SizeDelta: {x: 1177.3625, y: 345.5053}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &669307654
 MonoBehaviour:
@@ -288,7 +288,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 102dc98440f05c04195b114eb21093f1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: eb07070a29d7e5f44a0a0ef533ab537a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -407,15 +407,15 @@ RectTransform:
   m_GameObject: {fileID: 1096853293}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 768453732}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -447, y: 161.31523}
-  m_SizeDelta: {x: 4180.4736, y: 1361.0844}
+  m_AnchoredPosition: {x: -457.72144, y: 160.35312}
+  m_SizeDelta: {x: 1140.0276, y: 334.5492}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1096853295
 MonoBehaviour:
@@ -437,7 +437,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b09a6d0ca2eaeda47bab14eb9b434af6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 59c66cb5d4906cc4a92b7cc4630f467f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -568,7 +568,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 85, y: -8.4352}
+  m_AnchoredPosition: {x: -77, y: -8.4352}
   m_SizeDelta: {x: 1175.0955, y: 344.2663}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1899439322
@@ -1069,6 +1069,8 @@ GameObject:
   - component: {fileID: 726445087997097733}
   - component: {fileID: 6593852123602832766}
   - component: {fileID: 6804170616496060284}
+  - component: {fileID: 6864021950024084767}
+  - component: {fileID: 6864021950024084766}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1714,6 +1716,8 @@ GameObject:
   - component: {fileID: 5297930900183566435}
   - component: {fileID: 1734097456492737048}
   - component: {fileID: 2161609901862864922}
+  - component: {fileID: 6448367226462079050}
+  - component: {fileID: 6448367226462079049}
   m_Layer: 5
   m_Name: Button (2)
   m_TagString: Untagged
@@ -1721,6 +1725,67 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &6448367226462079049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6448367226462079048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 6448367226462079050}
+          m_TargetAssemblyTypeName: SlideButton, Assembly-CSharp
+          m_MethodName: SlideActive
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 6448367226462079050}
+          m_TargetAssemblyTypeName: SlideButton, Assembly-CSharp
+          m_MethodName: SlideInactive
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &6448367226462079050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6448367226462079048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 252802d0cf650c84f8938c039b88701d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonBorder: {fileID: 669307654}
+  xDistanceActive: 150
+  xDistanceInactive: 350
+  duration: 0.5
 --- !u!114 &6593852123602832766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1818,6 +1883,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1941018674004375342}
   m_CullTransparentMesh: 1
+--- !u!114 &6864021950024084766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941018674004375342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 6864021950024084767}
+          m_TargetAssemblyTypeName: SlideButton, Assembly-CSharp
+          m_MethodName: SlideActive
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 6864021950024084767}
+          m_TargetAssemblyTypeName: SlideButton, Assembly-CSharp
+          m_MethodName: SlideInactive
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &6864021950024084767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941018674004375342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 252802d0cf650c84f8938c039b88701d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonBorder: {fileID: 1096853295}
+  xDistanceActive: 500
+  xDistanceInactive: 350
+  duration: 0.5
 --- !u!114 &7253013719728808171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1903,6 +2029,8 @@ GameObject:
   - component: {fileID: 9188590340959818588}
   - component: {fileID: 3319898790086273319}
   - component: {fileID: 3169956817207808805}
+  - component: {fileID: 9188590340959818590}
+  - component: {fileID: 9188590340959818589}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -2063,6 +2191,8 @@ GameObject:
   - component: {fileID: 7253013719728808171}
   - component: {fileID: 3832890850272205456}
   - component: {fileID: 3521389782187466898}
+  - component: {fileID: 8384816620168716482}
+  - component: {fileID: 8384816620168716481}
   m_Layer: 5
   m_Name: Button (3)
   m_TagString: Untagged
@@ -2070,6 +2200,67 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8384816620168716481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8384816620168716480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8384816620168716482}
+          m_TargetAssemblyTypeName: SlideButton, Assembly-CSharp
+          m_MethodName: SlideActive
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8384816620168716482}
+          m_TargetAssemblyTypeName: SlideButton, Assembly-CSharp
+          m_MethodName: SlideInactive
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &8384816620168716482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8384816620168716480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 252802d0cf650c84f8938c039b88701d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonBorder: {fileID: 669307654}
+  xDistanceActive: 600
+  xDistanceInactive: 350
+  duration: 0.5
 --- !u!223 &8495801429458034534
 Canvas:
   m_ObjectHideFlags: 0
@@ -2131,6 +2322,67 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &9188590340959818589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8034234805500777335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 9188590340959818590}
+          m_TargetAssemblyTypeName: SlideButton, Assembly-CSharp
+          m_MethodName: SlideActive
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 9188590340959818590}
+          m_TargetAssemblyTypeName: SlideButton, Assembly-CSharp
+          m_MethodName: SlideInactive
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &9188590340959818590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8034234805500777335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 252802d0cf650c84f8938c039b88701d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonBorder: {fileID: 1096853295}
+  xDistanceActive: 150
+  xDistanceInactive: 350
+  duration: 0.5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

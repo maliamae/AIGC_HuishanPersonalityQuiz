@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d51db0a556c8e7c48bef9e5a92c2ad15
+guid: 32b3930af1a9f0d4882abb125d7b22ca
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6133465828064970626
-    second: Ellipse 222 (1)_0
+      213: -6294675905336808209
+    second: Yellow_Hair1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ellipse 222 (1)_0
+      name: Yellow_Hair1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 3642
-        height: 1393
+        width: 643
+        height: 437
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2874fc39ca27e1550800000000000000
-      internalID: 6133465828064970626
+      spriteID: fec603e5d91d4a8a0800000000000000
+      internalID: -6294675905336808209
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Ellipse 222 (1)_0: 6133465828064970626
+      Yellow_Hair1_0: -6294675905336808209
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

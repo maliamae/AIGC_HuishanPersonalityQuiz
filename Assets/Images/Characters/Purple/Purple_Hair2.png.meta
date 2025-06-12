@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d51db0a556c8e7c48bef9e5a92c2ad15
+guid: 20bbb17d39aee81458772e7de9da6fc0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6133465828064970626
-    second: Ellipse 222 (1)_0
+      213: -5675454719260229705
+    second: Purple_Hair2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ellipse 222 (1)_0
+      name: Purple_Hair2_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 30
         y: 0
-        width: 3642
-        height: 1393
+        width: 560
+        height: 719
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2874fc39ca27e1550800000000000000
-      internalID: 6133465828064970626
+      spriteID: 7bffdafa00cbc31b0800000000000000
+      internalID: -5675454719260229705
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Ellipse 222 (1)_0: 6133465828064970626
+      Purple_Hair2_0: -5675454719260229705
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

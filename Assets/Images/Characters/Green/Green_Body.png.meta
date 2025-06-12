@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d51db0a556c8e7c48bef9e5a92c2ad15
+guid: aa0e40b851a7e1e49ae66429e39d4fd6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6133465828064970626
-    second: Ellipse 222 (1)_0
+      213: 95240551672189313
+    second: Green_Body_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ellipse 222 (1)_0
+      name: Green_Body_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 3642
-        height: 1393
+        width: 383
+        height: 811
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2874fc39ca27e1550800000000000000
-      internalID: 6133465828064970626
+      spriteID: 18112a2f6cc525100800000000000000
+      internalID: 95240551672189313
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Ellipse 222 (1)_0: 6133465828064970626
+      Green_Body_0: 95240551672189313
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
