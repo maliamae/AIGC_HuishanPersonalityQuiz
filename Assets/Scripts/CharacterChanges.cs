@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
@@ -14,6 +15,7 @@ public class CharacterChanges : ButtonControls
     public Image eye2Image;
     public Image fanImage;
     public Image fanWideImage;
+    public Image textImage;
 
     public Sprite eye1Sprite;
     public Sprite eye2Sprite;
@@ -47,6 +49,10 @@ public class CharacterChanges : ButtonControls
     public Sprite bodyYellowSprite;
     public Sprite bodyPinkSprite;
     public Sprite bodyPurpleSprite;
+
+
+    //public List<string> option2Texts = new List<string>() { string.Empty, "E", "N", "F", "P" };
+    public List<Sprite> textResults = new List<Sprite>();
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -85,14 +91,36 @@ public class CharacterChanges : ButtonControls
 
                 if (option1Var[3] == 1)
                 {
+                    //ISTJ/ESTJ
                     fanImage.gameObject.SetActive(false);
                     fanWideImage.sprite = fan2PurpleSprite;
+                    if (option1Var[1] == 1)
+                    {
+                        //ISTJ
+                        textImage.sprite = textResults[8];
+                    }
+                    else
+                    {
+                        //ESTJ
+                        textImage.sprite = textResults[10];
+                    }
                 }
                 else if (option2Var[3] == 1)
                 {
+                    //ISFJ/ESFJ
                     fanWideImage.gameObject.SetActive(false);
                     fanImage.rectTransform.sizeDelta = new Vector2(293, 293);
                     fanImage.sprite = fan1PurpleSprite;
+                    if (option1Var[1] == 1)
+                    {
+                        //ISFJ
+                        textImage.sprite = textResults[9];
+                    }
+                    else
+                    {
+                        //ESFJ
+                        textImage.sprite = textResults[11];
+                    }
                 }
             }
             else if (option2Var[4] == 1)
@@ -106,14 +134,36 @@ public class CharacterChanges : ButtonControls
 
                 if (option1Var[3] == 1)
                 {
+                    //ISTP/ESTP
                     fanImage.gameObject.SetActive(false);
                     fanWideImage.sprite = fan2YellowSprite;
+                    if (option1Var[1] == 1)
+                    {
+                        //ISTP
+                        textImage.sprite = textResults[12];
+                    }
+                    else
+                    {
+                        //ESTP
+                        textImage.sprite = textResults[14];
+                    }
                 }
                 else if (option2Var[3] == 1)
                 {
+                    //ISFP/ESFP
                     fanWideImage.gameObject.SetActive(false);
                     fanImage.rectTransform.sizeDelta = new Vector2(202, 202);
                     fanImage.sprite = fan1YellowSprite;
+                    if (option1Var[1] == 1)
+                    {
+                        //ISFP
+                        textImage.sprite = textResults[13];
+                    }
+                    else
+                    {
+                        //ESFP
+                        textImage.sprite = textResults[15];
+                    }
                 }
             }
         }
@@ -129,16 +179,38 @@ public class CharacterChanges : ButtonControls
 
                 if (option1Var[4] == 1)
                 {
+                    //INTJ/ENTJ
                     hairShortImage.gameObject.SetActive(false);
                     hairLongImage.sprite = hair2PinkSprite;
                     hairLongPieceImage.sprite = hair2PiecePinkSprite;
+                    if (option1Var[1] == 1)
+                    {
+                        //INTJ
+                        textImage.sprite = textResults[0];
+                    }
+                    else
+                    {
+                        //ENTJ
+                        textImage.sprite = textResults[2];
+                    }
 
                 }
                 else if (option2Var[4] == 1)
                 {
+                    //INTP/ENTP
                     hairLongImage.gameObject.SetActive(false);
                     hairLongPieceImage.gameObject.SetActive(false);
                     hairShortImage.sprite = hair1PinkSprite;
+                    if (option1Var[1] == 1)
+                    {
+                        //INTP
+                        textImage.sprite = textResults[1];
+                    }
+                    else
+                    {
+                        //ENTP
+                        textImage.sprite = textResults[3];
+                    }
                 }
 
             }
@@ -152,16 +224,38 @@ public class CharacterChanges : ButtonControls
 
                 if (option1Var[4] == 1)
                 {
+                    //INFJ/ENFJ
                     hairShortImage.gameObject.SetActive(false);
                     hairLongPieceImage.sprite = hair2PieceGreenSprite;
                     hairLongImage.sprite = hair2GreenSprite;
+                    if (option1Var[1] == 1)
+                    {
+                        //INFJ
+                        textImage.sprite = textResults[4];
+                    }
+                    else
+                    {
+                        //ENFJ
+                        textImage.sprite = textResults[6];
+                    }
 
                 }
                 else if (option2Var[4] == 1)
                 {
+                    //INFP/ENFP
                     hairLongImage.gameObject.SetActive(false);
                     hairLongPieceImage.gameObject.SetActive(false);
                     hairShortImage.sprite = hair1GreenSprite;
+                    if (option1Var[1] == 1)
+                    {
+                        //INFP
+                        textImage.sprite = textResults[5];
+                    }
+                    else
+                    {
+                        //ENFP
+                        textImage.sprite = textResults[7];
+                    }
                 }
             }
         }

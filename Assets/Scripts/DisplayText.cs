@@ -6,6 +6,7 @@ public class DisplayText : ButtonControls
     //ButtonControls buttonControls;
     public TextMeshProUGUI displayText;
     public TextMeshProUGUI MBTIDisplayText;
+    public string MBTIDebugText;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -16,9 +17,13 @@ public class DisplayText : ButtonControls
 
         for (int i = 1; i < option1Var.Count; i++)
         {
-            MBTIDisplayText.text = MBTIDisplayText.text + "\n" + option1Texts[i] + " " + option1Var[i] + "     " + option2Texts[i] + " " + option2Var[i];
+            //MBTIDisplayText.text = MBTIDisplayText.text + "," + option1Texts[i] + " " + option1Var[i] + ", " + option2Texts[i] + " " + option2Var[i];
+
+            MBTIDebugText = MBTIDebugText + "," + option1Texts[i] + " " + option1Var[i] + ", " + option2Texts[i] + " " + option2Var[i];
             //Debug.Log(option1Texts[i] + " " + option1Var[i]);
         }
+
+        Debug.Log(MBTIDebugText);
     }
 
     // Update is called once per frame
