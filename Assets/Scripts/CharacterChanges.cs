@@ -66,20 +66,20 @@ public class CharacterChanges : ButtonControls
         fanWideImage = fanWideImage.GetComponent<Image>();
 
 
-        if (option1Var[1] == 1)
+        if (option1Var[3] == 1) //I
         {
             eye2Image.gameObject.SetActive(false);
             eyeImage.sprite = eye1Sprite;
         }
-        else if (option2Var[1] == 1)
+        else if (option2Var[3] == 1) //E
         {
             eyeImage.gameObject.SetActive(false);
             eye2Image.sprite = eye2Sprite;
         }
 
-        if (option1Var[2] == 1)
+        if (option1Var[1] == 1) //S
         {
-            if (option1Var[4] == 1)
+            if (option1Var[4] == 1) //J
             {
                 //Purple
                 hairShortImage.gameObject.SetActive(false);
@@ -89,12 +89,12 @@ public class CharacterChanges : ButtonControls
                 hairLongImage.sprite = hair2PurpleSprite;
                 hairLongPieceImage.sprite = hair2PiecePurpleSprite;
 
-                if (option1Var[3] == 1)
+                if (option1Var[2] == 1) //T
                 {
                     //ISTJ/ESTJ
                     fanImage.gameObject.SetActive(false);
                     fanWideImage.sprite = fan2PurpleSprite;
-                    if (option1Var[1] == 1)
+                    if (option1Var[3] == 1) //I/E
                     {
                         //ISTJ
                         textImage.sprite = textResults[8];
@@ -105,13 +105,13 @@ public class CharacterChanges : ButtonControls
                         textImage.sprite = textResults[10];
                     }
                 }
-                else if (option2Var[3] == 1)
+                else if (option2Var[2] == 1) //F
                 {
                     //ISFJ/ESFJ
                     fanWideImage.gameObject.SetActive(false);
                     fanImage.rectTransform.sizeDelta = new Vector2(293, 293);
                     fanImage.sprite = fan1PurpleSprite;
-                    if (option1Var[1] == 1)
+                    if (option1Var[3] == 1) //I/E
                     {
                         //ISFJ
                         textImage.sprite = textResults[9];
@@ -123,7 +123,7 @@ public class CharacterChanges : ButtonControls
                     }
                 }
             }
-            else if (option2Var[4] == 1)
+            else if (option2Var[4] == 1) //P
             {
                 //Yellow
                 hairLongImage.gameObject.SetActive(false);
@@ -132,12 +132,12 @@ public class CharacterChanges : ButtonControls
                 bodyImage.sprite = bodyYellowSprite;
                 hairShortImage.sprite = hair1YellowSprite;
 
-                if (option1Var[3] == 1)
+                if (option1Var[2] == 1) //T
                 {
                     //ISTP/ESTP
                     fanImage.gameObject.SetActive(false);
                     fanWideImage.sprite = fan2YellowSprite;
-                    if (option1Var[1] == 1)
+                    if (option1Var[3] == 1) //I/E
                     {
                         //ISTP
                         textImage.sprite = textResults[12];
@@ -148,13 +148,13 @@ public class CharacterChanges : ButtonControls
                         textImage.sprite = textResults[14];
                     }
                 }
-                else if (option2Var[3] == 1)
+                else if (option2Var[2] == 1) //F
                 {
                     //ISFP/ESFP
                     fanWideImage.gameObject.SetActive(false);
                     fanImage.rectTransform.sizeDelta = new Vector2(202, 202);
                     fanImage.sprite = fan1YellowSprite;
-                    if (option1Var[1] == 1)
+                    if (option1Var[3] == 1) //I/E
                     {
                         //ISFP
                         textImage.sprite = textResults[13];
@@ -167,9 +167,9 @@ public class CharacterChanges : ButtonControls
                 }
             }
         }
-        else if (option2Var[2] == 1)
+        else if (option2Var[1] == 1) //N
         {
-            if (option1Var[3] == 1)
+            if (option1Var[2] == 1) //T
             {
                 //Pink
                 bodyImage.sprite = bodyPinkSprite;
@@ -177,13 +177,13 @@ public class CharacterChanges : ButtonControls
                 fanImage.gameObject.SetActive(false);
                 fanWideImage.sprite = fan2PinkSprite;
 
-                if (option1Var[4] == 1)
+                if (option1Var[4] == 1) //J
                 {
                     //INTJ/ENTJ
                     hairShortImage.gameObject.SetActive(false);
                     hairLongImage.sprite = hair2PinkSprite;
                     hairLongPieceImage.sprite = hair2PiecePinkSprite;
-                    if (option1Var[1] == 1)
+                    if (option1Var[3] == 1) //I/E
                     {
                         //INTJ
                         textImage.sprite = textResults[0];
@@ -195,13 +195,13 @@ public class CharacterChanges : ButtonControls
                     }
 
                 }
-                else if (option2Var[4] == 1)
+                else if (option2Var[4] == 1) //P
                 {
                     //INTP/ENTP
                     hairLongImage.gameObject.SetActive(false);
                     hairLongPieceImage.gameObject.SetActive(false);
                     hairShortImage.sprite = hair1PinkSprite;
-                    if (option1Var[1] == 1)
+                    if (option1Var[3] == 1) //I/E
                     {
                         //INTP
                         textImage.sprite = textResults[1];
@@ -214,7 +214,7 @@ public class CharacterChanges : ButtonControls
                 }
 
             }
-            else if (option2Var[3] == 1)
+            else if (option2Var[2] == 1) //F
             {
                 //Green
                 bodyImage.sprite = bodyGreenSprite;
@@ -222,13 +222,13 @@ public class CharacterChanges : ButtonControls
                 fanWideImage.gameObject.SetActive(false);
                 fanImage.sprite = fan1GreenSprite;
 
-                if (option1Var[4] == 1)
+                if (option1Var[4] == 1) //J
                 {
                     //INFJ/ENFJ
                     hairShortImage.gameObject.SetActive(false);
                     hairLongPieceImage.sprite = hair2PieceGreenSprite;
                     hairLongImage.sprite = hair2GreenSprite;
-                    if (option1Var[1] == 1)
+                    if (option1Var[3] == 1) //I/E
                     {
                         //INFJ
                         textImage.sprite = textResults[4];
@@ -240,13 +240,13 @@ public class CharacterChanges : ButtonControls
                     }
 
                 }
-                else if (option2Var[4] == 1)
+                else if (option2Var[4] == 1) //P
                 {
                     //INFP/ENFP
                     hairLongImage.gameObject.SetActive(false);
                     hairLongPieceImage.gameObject.SetActive(false);
                     hairShortImage.sprite = hair1GreenSprite;
-                    if (option1Var[1] == 1)
+                    if (option1Var[3] == 1) //I/E
                     {
                         //INFP
                         textImage.sprite = textResults[5];

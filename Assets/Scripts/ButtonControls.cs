@@ -38,11 +38,11 @@ public class ButtonControls : MonoBehaviour
     public static string currentTransition;
 
     public List<string> transitionNames = new List<string>() { "CircleWipe", "CircleWipeUp", "CircleWipeLeft", "CircleWipeDown", "CrossFade" };
-    public List<string> option1Texts = new List<string>() { string.Empty, "I", "S", "T", "J" };
-    public List<string> option2Texts = new List<string>() { string.Empty, "E", "N", "F", "P" };
+    public List<string> option1Texts = new List<string>() { string.Empty, "S", "T", "I", "J" };
+    public List<string> option2Texts = new List<string>() { string.Empty, "N", "F", "E", "P" };
 
-    public static List<int> option1Var = new List<int>() { 0, countI, countS, countT, countJ };
-    public static List<int> option2Var = new List<int>() { 0, countE, countN, countF, countP };
+    public static List<int> option1Var = new List<int>() { 0, countS, countT, countI, countJ };
+    public static List<int> option2Var = new List<int>() { 0, countN, countF, countE, countP };
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -101,7 +101,7 @@ public class ButtonControls : MonoBehaviour
         {
             option1Var[currentScene]++;
 
-            Debug.Log(option1Var[currentScene]);
+            //Debug.Log(option1Var[currentScene]);
 
             count1 ++;
         }
@@ -109,10 +109,11 @@ public class ButtonControls : MonoBehaviour
         {
             option2Var[currentScene]++;
 
-            Debug.Log(option2Var[currentScene]);
+            //Debug.Log(option2Var[currentScene]);
             count2 ++;
         }
 
+        Debug.Log(option1Var[currentScene] + " " +  option2Var[currentScene]);
 
         //SceneManager.LoadScene(nextScene, LoadSceneMode.Single);
         LevelManager.Instance.LoadScene(nextScene, currentTransition);
